@@ -1,0 +1,76 @@
+:root{
+    --shadow: #676b6e2c;
+}
+html {
+    height: 100%;
+}
+body {
+    color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #13222d;
+    font-family: Roboto,sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#13222D; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #273241; 
+    border-radius: 8vh;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:  #294155; 
+  }
+
+.container {
+    padding: 7vh;
+    padding-top: 5vh;
+    border-radius: 2vh;
+    background-color: #273241;
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.2);
+}
+
+.h1{
+    justify-content: center;
+}
+
+.card-container{
+    padding: 7vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0);
+    background-color: #13222d;
+}
+.card{
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.2);
+    padding: 2vh;
+    background-color: #273241;
+    margin: 0 auto; /* Added */
+    margin-top: 2vh;
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-text-primary{
+    margin-bottom: -0.5rem;
+    font-size: 2rem;
+    color: #13222d;
+}
+
+.card-text-secondary{
+    margin-bottom: -0.3rem;
+    font-size: 1rem;
+    color: #13222d;
+}
